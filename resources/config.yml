@@ -1,0 +1,40 @@
+# Cost Command #
+
+fly.cost: 5000
+spectate.cost: 800
+.cost: 1000
+
+# For the Exit button #
+
+cancelled: "§aYou cancelled buying Flight System."
+
+# FLY SYSTEM Messages #
+
+fly.content: "§fAre you sure you want to buy FLY for §2$5000§f? Please press Confirm if you want to buy FLY.\n§fand you will able to use the command §6/fly"
+fly.success: "§aYou've successfully bought FLY Command for §2$5000§a! Now you can access §f/fly §acommand now."
+fly.no.money: "§cYou don't have enought Money to buy Fly."
+fly.cancelled: "§aYou cancelled buying Fly."
+fly.exited: "§aYou exited from the Fly System"
+fly.true: "§aYou successfully turned ON your FLY Mode."
+fly.false: "§aYou successfully turned OFF your FLY Mode."
+fly.access.content: "§fYou have an access for Fly Command! Turn it on to be able to fly from the map. To disable it Please press the button off!\n§fTheres a bug to turn it off fly mode. Please crouch down into the floor!"
+
+# Spectator Mode Messages #
+
+spectate.content: "§fAre you sure you want to buy Spectator Mode for §2$800§f? Please press Confirm if you want to buy Spectator Mode.\n§fand you will able to use the command §6/spectate"
+spectate.success: "§aYou've successfully bought Spectator Command for §2$800§a! Now you can access §f/spectate §acommand now."
+spectate.no.money: "§cYou don't have enought Money to buy Spectator Mode."
+spectate.cancelled: "§aYou cancelled buying Spectator Mode."
+spectate.exited: "§aYou exited from the Spectator System"
+spectate.true: "§aYou successfully turned ON your Spectator Mode."
+spectate.false: "§aYou successfully turned OFF your Spectator Mode."
+spectate.access.content: "§fYou have an access for Spectator Mode Command! Turn it on to be able to spectate from the map. To disable it Please press the button off!"
+
+#  LEAP SYSTEM Message #
+
+leap.content: "§fAre you sure you want to buy for Leap Item for §2$1000§f? Please press Confirm if you want to buy Leap Item.\n§fand you will able to use the command §6/leap\n§fYou can also give your friend a  Item!"
+leap.success: "§aYou've successfully bought  Item for §2$1000§a! Now you can access §f/leap §acommand now."
+leap.no.money: "§cYou don't have enought Money to buy  Item."
+leap.cancelled: "§aYou cancelled buying  Item."
+leap.give: "§aYou have successfully gaved yourself an a  Item. Tap anywhere to lauched!"
+...
