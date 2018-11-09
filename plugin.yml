@@ -1,0 +1,18 @@
+name: FlightSystemUI
+version: 1.0
+main: FlightSystem\Main
+api: [3.0.0]
+author: DragonPlayzMC, Lover_Boy636
+
+commands:
+  flight:
+    description: "FlightSystem commands!"
+  fly:
+    description: "Fly in surivival mode."
+    permission: fly.cmd
+  spectate:
+    description: "Gamemode Spectator."
+    permission: spectate.cmd
+  leap:
+    description: "Leap yourself with a Feather Item."
+    permission: leap.cmd
