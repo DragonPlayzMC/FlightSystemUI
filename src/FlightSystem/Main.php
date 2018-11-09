@@ -159,7 +159,12 @@ class Main extends PluginBase implements Listener {
             if($money >= $fly){
 
                $this->eco->reduceMoney($sender, $fly);
-               $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "setuperm " . $sender->getName() . " fly.cmd");
+		    
+	       // old code
+               //$this->getServer()->dispatchCommand(new ConsoleCommandSender(), "setuperm " . $sender->getName() . " fly.cmd");
+	       //   
+		    
+	       $sender->addAttachment($this, "fly.cmd", true);
                $sender->sendMessage($this->getConfig()->get("fly.success"));
               return true;
             }else{
@@ -190,7 +195,12 @@ class Main extends PluginBase implements Listener {
             if($money >= $fly){
 
                $this->eco->reduceMoney($sender, $fly);
-               $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "setuperm " . $sender->getName() . " leap.cmd");
+		    
+	       //old code
+               //$this->getServer()->dispatchCommand(new ConsoleCommandSender(), "setuperm " . $sender->getName() . " leap.cmd");
+	       //
+		    
+	       $sender->addAttachment($this, "leap.cmd", true);
                $sender->sendMessage($this->getConfig()->get("leap.success"));
               return true;
             }else{
@@ -221,7 +231,12 @@ class Main extends PluginBase implements Listener {
             if($money >= $fly){
 
                $this->eco->reduceMoney($sender, $fly);
-               $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "setuperm " . $sender->getName() . " spectate.cmd");
+		    
+	       // old code
+               //$this->getServer()->dispatchCommand(new ConsoleCommandSender(), "setuperm " . $sender->getName() . " spectate.cmd");
+	       //
+		    
+	       $sender->addAttachment($this, "spectate.cmd", true);
                $sender->sendMessage($this->getConfig()->get("spectate.success"));
               return true;
             }else{
